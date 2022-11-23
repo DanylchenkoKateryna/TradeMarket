@@ -1,0 +1,10 @@
+C:\Users\Я\OneDrive\Рабочий стол\TradeMarketProject\TradeMarketProject\LoggerService\bin\Debug\netcoreapp3.1\LoggerService.deps.json
+C:\Users\Я\OneDrive\Рабочий стол\TradeMarketProject\TradeMarketProject\LoggerService\bin\Debug\netcoreapp3.1\LoggerService.dll
+C:\Users\Я\OneDrive\Рабочий стол\TradeMarketProject\TradeMarketProject\LoggerService\bin\Debug\netcoreapp3.1\LoggerService.pdb
+C:\Users\Я\OneDrive\Рабочий стол\TradeMarketProject\TradeMarketProject\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.csproj.AssemblyReference.cache
+C:\Users\Я\OneDrive\Рабочий стол\TradeMarketProject\TradeMarketProject\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Я\OneDrive\Рабочий стол\TradeMarketProject\TradeMarketProject\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.AssemblyInfoInputs.cache
+C:\Users\Я\OneDrive\Рабочий стол\TradeMarketProject\TradeMarketProject\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.AssemblyInfo.cs
+C:\Users\Я\OneDrive\Рабочий стол\TradeMarketProject\TradeMarketProject\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.csproj.CoreCompileInputs.cache
+C:\Users\Я\OneDrive\Рабочий стол\TradeMarketProject\TradeMarketProject\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.dll
+C:\Users\Я\OneDrive\Рабочий стол\TradeMarketProject\TradeMarketProject\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.pdb

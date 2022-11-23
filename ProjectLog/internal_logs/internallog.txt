@@ -1,0 +1,91 @@
+2022-11-23 22:33:51.9488 Info Message Template Auto Format enabled
+2022-11-23 22:33:52.0545 Debug ScanAssembly('NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2022-11-23 22:33:52.3952 Debug Setting 'NLog.Targets.FileTarget.name' to 'logfile'
+2022-11-23 22:33:52.4144 Debug Setting 'NLog.Targets.FileTarget.fileName' to 'C:\Users\Я\OneDrive\Рабочий стол\TradeMarketProject\TradeMarketProject/ProjectLog\logs\${shortdate}_logfile.txt'
+2022-11-23 22:33:52.4446 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-11-23 22:33:52.4446 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-11-23 22:33:52.4762 Debug Setting 'NLog.Targets.FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2022-11-23 22:33:52.4762 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-11-23 22:33:52.4762 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-11-23 22:33:52.4946 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-11-23 22:33:52.4946 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-11-23 22:33:52.4946 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-11-23 22:33:52.4946 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-11-23 22:33:52.4946 Info Adding target FileTarget(Name=logfile)
+2022-11-23 22:33:52.5054 Debug Registered target logfile: NLog.Targets.FileTarget
+2022-11-23 22:33:52.5054 Trace ParseRulesElement
+2022-11-23 22:33:52.5944 Debug Watching file-filter 'nlog.config' in directory: C:\Users\Я\OneDrive\Рабочий стол\TradeMarketProject\TradeMarketProject\TradeMarketProject
+2022-11-23 22:33:52.5985 Debug --- NLog configuration dump ---
+2022-11-23 22:33:52.5985 Debug Targets:
+2022-11-23 22:33:52.5985 Debug FileTarget(Name=logfile)
+2022-11-23 22:33:52.5985 Debug Rules:
+2022-11-23 22:33:52.5985 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ logfile ]
+2022-11-23 22:33:52.5985 Debug --- End of NLog configuration dump ---
+2022-11-23 22:33:52.6242 Trace FindReachableObject<System.Object>:
+2022-11-23 22:33:52.6242 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ logfile ]'
+2022-11-23 22:33:52.6326 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2022-11-23 22:33:52.6326 Trace  Scanning FileTarget 'FileTarget(Name=logfile)'
+2022-11-23 22:33:52.6326 Trace   Scanning Property FileName 'C:\Users\Я\OneDrive\Рабочий стол\TradeMarketProject\TradeMarketProject/ProjectLog\logs\${shortdate}_logfile.txt' NLog.Layouts
+2022-11-23 22:33:52.6326 Trace   Scanning SimpleLayout 'C:\Users\Я\OneDrive\Рабочий стол\TradeMarketProject\TradeMarketProject/ProjectLog\logs\${shortdate}_logfile.txt'
+2022-11-23 22:33:52.6326 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-11-23 22:33:52.6464 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-11-23 22:33:52.6464 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-11-23 22:33:52.6464 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-11-23 22:33:52.6464 Trace   Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts
+2022-11-23 22:33:52.6464 Trace   Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2022-11-23 22:33:52.6669 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-11-23 22:33:52.6669 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-11-23 22:33:52.6759 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-11-23 22:33:52.6759 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-11-23 22:33:52.6759 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-11-23 22:33:52.6759 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-11-23 22:33:52.6759 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2022-11-23 22:33:52.6759 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2022-11-23 22:33:52.6759 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2022-11-23 22:33:52.6998 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Я\OneDrive\Рабочий стол\TradeMarketProject\TradeMarketProject\TradeMarketProject\nlog.config
+2022-11-23 22:33:52.6998 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2022-11-23 22:33:52.7254 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2022-11-23 22:33:52.7254 Trace Initializing Layout Renderer: ${message}
+2022-11-23 22:33:52.7254 Trace Initializing Layout Renderer: ${literal}
+2022-11-23 22:33:52.7254 Trace Initializing Layout Renderer: ${level}
+2022-11-23 22:33:52.7254 Trace Initializing Layout Renderer: ${literal}
+2022-11-23 22:33:52.7254 Trace Initializing Layout Renderer: ${longdate}
+2022-11-23 22:33:52.7254 Trace Initializing ${longdate} ${level:uppercase=true} ${message}
+2022-11-23 22:33:52.7493 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-11-23 22:33:52.7493 Trace Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2022-11-23 22:33:52.7493 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-11-23 22:33:52.7493 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-11-23 22:33:52.7552 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-11-23 22:33:52.7552 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-11-23 22:33:52.7552 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-11-23 22:33:52.7552 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-11-23 22:33:52.7552 Trace Initializing Layout Renderer: ${literal}
+2022-11-23 22:33:52.7552 Trace Initializing Layout Renderer: ${shortdate}
+2022-11-23 22:33:52.7716 Trace Initializing Layout Renderer: ${literal}
+2022-11-23 22:33:52.7716 Trace Initializing C:\Users\Я\OneDrive\Рабочий стол\TradeMarketProject\TradeMarketProject/ProjectLog\logs\${shortdate}_logfile.txt
+2022-11-23 22:33:52.7716 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-11-23 22:33:52.7716 Trace Scanning SimpleLayout 'C:\Users\Я\OneDrive\Рабочий стол\TradeMarketProject\TradeMarketProject/ProjectLog\logs\${shortdate}_logfile.txt'
+2022-11-23 22:33:52.7716 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-11-23 22:33:52.7716 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-11-23 22:33:52.7716 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-11-23 22:33:52.7716 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-11-23 22:33:52.7716 Trace Initializing FileTarget(Name=logfile)
+2022-11-23 22:33:52.7918 Trace FindReachableObject<NLog.Layouts.Layout>:
+2022-11-23 22:33:52.7918 Trace Scanning FileTarget 'FileTarget(Name=logfile)'
+2022-11-23 22:33:52.7918 Trace  Scanning Property FileName 'C:\Users\Я\OneDrive\Рабочий стол\TradeMarketProject\TradeMarketProject/ProjectLog\logs\${shortdate}_logfile.txt' NLog.Layouts
+2022-11-23 22:33:52.7918 Trace  Scanning SimpleLayout 'C:\Users\Я\OneDrive\Рабочий стол\TradeMarketProject\TradeMarketProject/ProjectLog\logs\${shortdate}_logfile.txt'
+2022-11-23 22:33:52.7918 Trace  Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts
+2022-11-23 22:33:52.8018 Trace  Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2022-11-23 22:33:52.8018 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2022-11-23 22:33:52.8018 Trace FileTarget(Name=logfile) has 2 layouts
+2022-11-23 22:33:52.8018 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.SingleProcessFileAppender+Factory
+2022-11-23 22:33:54.4850 Debug Targets configured when LogLevel >= Debug for Logger: TradeMarketProject.LogerService.LoggerManager
+2022-11-23 22:33:54.4850 Debug Logger TradeMarketProject.LogerService.LoggerManager [Debug] => logfile
+2022-11-23 22:33:54.4850 Debug Logger TradeMarketProject.LogerService.LoggerManager [Info] => logfile
+2022-11-23 22:33:54.4850 Debug Logger TradeMarketProject.LogerService.LoggerManager [Warn] => logfile
+2022-11-23 22:33:54.4850 Debug Logger TradeMarketProject.LogerService.LoggerManager [Error] => logfile
+2022-11-23 22:33:54.4945 Debug Logger TradeMarketProject.LogerService.LoggerManager [Fatal] => logfile
+2022-11-23 22:33:54.5347 Debug FileTarget(Name=logfile): Preparing for new file 'C:\Users\Я\OneDrive\Рабочий стол\TradeMarketProject\TradeMarketProject/ProjectLog\logs\2022-11-23_logfile.txt'
+2022-11-23 22:33:54.5505 Debug FileTarget(Name=logfile): Creating file appender: C:\Users\Я\OneDrive\Рабочий стол\TradeMarketProject\TradeMarketProject/ProjectLog\logs\2022-11-23_logfile.txt
+2022-11-23 22:33:54.5505 Trace FileTarget(Name=logfile): Opening C:\Users\Я\OneDrive\Рабочий стол\TradeMarketProject\TradeMarketProject/ProjectLog\logs\2022-11-23_logfile.txt with allowFileSharedWriting=False
+2022-11-23 22:33:54.5624 Debug FileTarget(Name=logfile): DirectoryNotFoundException - Attempting to create directory for FileName: C:\Users\Я\OneDrive\Рабочий стол\TradeMarketProject\TradeMarketProject/ProjectLog\logs\2022-11-23_logfile.txt
