@@ -1,0 +1,135 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Я\\OneDrive\\Рабочий стол\\TradeMarketProject\\TradeMarketProject\\TradeMarketProject\\WebApi.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Я\\OneDrive\\Рабочий стол\\TradeMarketProject\\TradeMarketProject\\LoggerService\\LoggerService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Я\\OneDrive\\Рабочий стол\\TradeMarketProject\\TradeMarketProject\\LoggerService\\LoggerService.csproj",
+        "projectName": "LoggerService",
+        "projectPath": "C:\\Users\\Я\\OneDrive\\Рабочий стол\\TradeMarketProject\\TradeMarketProject\\LoggerService\\LoggerService.csproj",
+        "packagesPath": "C:\\Users\\Я\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Я\\OneDrive\\Рабочий стол\\TradeMarketProject\\TradeMarketProject\\LoggerService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Я\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Я\\OneDrive\\Рабочий стол\\TradeMarketProject\\TradeMarketProject\\TradeMarketProject\\WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Я\\OneDrive\\Рабочий стол\\TradeMarketProject\\TradeMarketProject\\TradeMarketProject\\WebApi.csproj",
+        "projectName": "WebApi",
+        "projectPath": "C:\\Users\\Я\\OneDrive\\Рабочий стол\\TradeMarketProject\\TradeMarketProject\\TradeMarketProject\\WebApi.csproj",
+        "packagesPath": "C:\\Users\\Я\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Я\\OneDrive\\Рабочий стол\\TradeMarketProject\\TradeMarketProject\\TradeMarketProject\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Я\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Я\\OneDrive\\Рабочий стол\\TradeMarketProject\\TradeMarketProject\\LoggerService\\LoggerService.csproj": {
+                "projectPath": "C:\\Users\\Я\\OneDrive\\Рабочий стол\\TradeMarketProject\\TradeMarketProject\\LoggerService\\LoggerService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

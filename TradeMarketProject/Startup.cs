@@ -35,9 +35,11 @@ namespace TradeMarketProject
         {
             services.ConfigureCors();
             services.ConfigureIISIntegration();
+            services.ConfigureUnitOfWork();
             services.AddControllers();
             services.AddMvc();
             services.ConfigureLoggerService();
+            services.ConfigureSqlContext(Configuration);
         }
        
 
